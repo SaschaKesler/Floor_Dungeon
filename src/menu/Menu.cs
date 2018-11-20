@@ -8,16 +8,17 @@ public class Menu {
 
     private static void startMenu() {
         printNewLine("Starting " + GAME_NAME + "...");
-        printNewLine("1) Create new game");
-        printNewLine("2) Load game");
-        printNewLine("3) Exit");
         
         String inputLine = null;
         do {
-            
+            printNewLine("1) Create new game");
+            printNewLine("2) Load game");
+            printNewLine("3) Exit");
 
             printSameLine("Please enter a number: ");            
             inputLine = Console.ReadLine();
+
+            //TODO: implement the game
 
         } while(! "3".Equals(inputLine));
 

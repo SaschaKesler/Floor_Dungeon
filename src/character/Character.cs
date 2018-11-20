@@ -1,3 +1,5 @@
+using System.Collections.Generic;
+
 public class Character {
 
     //stats
@@ -6,7 +8,7 @@ public class Character {
     private int damage;
     private int attackSpeed;
     private int speed;
-    private int armor;
+    private int defense;
     private int magicResistence;
     
     //ToDo implement equipment, ability (and inventory?) --> or make a new class equipment which contains all of these with inventory

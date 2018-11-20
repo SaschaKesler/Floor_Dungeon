@@ -1,6 +1,6 @@
 #exclude vscode
-.vscode/*
-bin/*
+# .vscode/*
+# bin/*
 obj/*
 
 #include vscode
