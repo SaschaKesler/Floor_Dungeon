@@ -12,44 +12,31 @@ public abstract class Weapon{
         this.weaponTyp = weaponTyp;
     }
 
-	public int getDamage()
-	{
-		return this.damage;
-	}
+	public int getDamage() {
+        return damage;
+    }
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
 
-	public void setDamage(int damage)
-	{
-		this.damage = damage;
-	}
+    public double getAttackSpeed() {
+        return attackSpeed;
+    }
+    public void setAttackSpeed(double attackSpeed) {
+        this.attackSpeed = attackSpeed;
+    }
 
-	public double getAttackspeed()
-	{
-		return this.attackSpeed;
-	}
-
-	public void setAttackspeed(double attackSpeed)
-	{
-		this.attackSpeed = attackSpeed;
-	}
-
-	public WeaponTyp getWeapontyp()
-	{
-		return this.weaponTyp;
-	}
-
-	public void setWeapontyp(WeaponTyp weaponTyp)
-	{
-		this.weaponTyp = weaponTyp;
-	}
-
-	public bool getIsonehand()
-	{
-		return this.isOneHand;
-	}
-
-	public void isIsonehand(bool isOneHand)
-	{
-		this.isOneHand = isOneHand;
-	}
+    public WeaponTyp getWeaponTyp() {
+        return weaponTyp;
+    }
+    public void setWeaponTyp(WeaponTyp weaponTyp) {
+        this.weaponTyp = weaponTyp;
+    }
+    public bool getIsOneHand() {
+        return isOneHand;
+    }
+    public void setIsOneHand(bool isOneHand) {
+        this.isOneHand = isOneHand;
+    }
 
 }
