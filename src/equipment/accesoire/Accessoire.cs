@@ -1,5 +1,3 @@
-namespace Accessoire {
-    public abstract class Accessoire {
-        
-    }
+public abstract class Accessoire {
+    //ToDo implement me
 }

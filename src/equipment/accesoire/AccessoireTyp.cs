@@ -1,7 +1,5 @@
-﻿namespace Accessoire {
-    public enum AccessoireTyp {
-        Earring,
-        Necklace,
-        Ring
-    }
+﻿public enum AccessoireTyp {
+    Earring,
+    Necklace,
+    Ring
 }
