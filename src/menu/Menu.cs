@@ -19,10 +19,31 @@ public class Menu {
             inputLine = Console.ReadLine();
 
             //TODO: implement the game
+            if("1".Equals(inputLine)) {
+
+                createNewGame();
+            } else if("2".Equals(inputLine)) {
+
+                loadGame();
+            } else if("3".Equals(inputLine)) {
+
+            } else {
+
+                printNewLine("Please write a number between 1 and 3");
+            }
 
         } while(! "3".Equals(inputLine));
 
         printNewLine("Good Bye!");
+    }
+
+    private static void createNewGame() {
+        printSameLine("Please enter your character name: ");
+        Character player = new Player();
+    }
+
+    private static void loadGame() {
+        printNewLine("Not implemented yet...");
     }
 
     private static void printNewLine(String text) {
