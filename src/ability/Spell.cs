@@ -1,3 +1,5 @@
-public abstract class Spell {
-    
+namespace ability {
+    public abstract class Spell {
+        
+    }
 }

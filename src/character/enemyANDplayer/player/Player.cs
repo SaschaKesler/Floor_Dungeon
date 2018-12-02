@@ -1,6 +1,8 @@
-public class Player : Character {
+namespace enemyAndPlayer {
+    public class Player : Character {
 
-    public Player(string name) : base(name) {
-        
+        public Player(string name) : base(name, null, null) {
+            
+        }
     }
 }

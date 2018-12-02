@@ -1,4 +1,6 @@
 using System;
+using enemyAndPlayer;
+
 public class Menu {
     public static void Main(string[] args) {
         Menu.startMenu();
@@ -38,12 +40,21 @@ public class Menu {
     }
 
     private static void createNewGame() {
+
+        //TODO: choose your role and race
+
         printSameLine("Please enter your character name: ");
-        Character player = new Player();
+        String name = readLine();
+        Character player = new Player(name);
+        //TODO: no we need to implement the floors and every floor will have atleast 1 enemy and every 5/20 floors atleast 1 boss will spawn
     }
 
     private static void loadGame() {
         printNewLine("Not implemented yet...");
+    }
+
+    private static string readLine() {
+        return Console.ReadLine();
     }
 
     private static void printNewLine(String text) {

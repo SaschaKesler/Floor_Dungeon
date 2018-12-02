@@ -1,3 +1,5 @@
-public abstract class Skill {
-    
+namespace ability {
+    public abstract class Skill {
+        
+    }
 }
